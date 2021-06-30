@@ -1,0 +1,15 @@
+
+<table id = "users">
+  <tr>
+    <!-- <div>{{this.allData| json}}</div> -->
+    <th *ngFor="let col of allData.columns">
+      {{col}}
+    </th>
+  </tr>
+  <tr *ngFor="let user of allData.users">
+    <td *ngFor="let col of allData.columns">
+      {{user[col]}}
+    </td>
+  </tr>
+
+</table>

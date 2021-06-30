@@ -1,0 +1,29 @@
+{
+  "Users" :[
+    {
+     "updated":1623999604789,
+     "cases":178207699,
+     "todayCases":22215,
+     "deaths":3858074,
+     "todayDeaths":503,
+     "recovered":162716458,
+     "todayRecovered":32542,
+     "active":11633167,
+     "critical":82418,
+     "casesPerOneMillion":22862,
+     "deathsPerOneMillion":495,
+     "tests":2624305589,
+     "testsPerOneMillion":335082.39,
+     "population":7831821870,
+     "oneCasePerPeople":0,
+     "oneDeathPerPeople":0,
+     "oneTestPerPeople":0,
+     "undefined":0,
+     "activePerOneMillion":1485.37,
+     "recoveredPerOneMillion":20776.32,
+     "criticalPerOneMillion":10.52,
+     "affectedCountries":222
+
+    }
+  ]
+}
