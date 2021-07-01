@@ -15,6 +15,8 @@ export class RestService {
 
   url2: string = "http://localhost:3000/db2/";
 
+  url3: string = "http://localhost:3000/";
+
   getUsers()
   {
     return this.http.get<Users[]>(this.url);
@@ -30,4 +32,8 @@ export class RestService {
     return this.http.get<any[]>(this.url2);
   }
 
+  getDefault()
+  {
+    return this.http.get<Users[]>(this.url3);
+  }
 }
